@@ -1,0 +1,31 @@
+.search-bar {
+    text-align: center;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .search-bar > input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .notvisible{
+    display: none;
+  }
+  
+  .bg_color{
+    background-color:#AFA28B ;
+  }
+
+  @media only screen and (max-width:1190px) {
+    .search-bar{
+      flex-direction: column;
+    }
+  } 

@@ -1,0 +1,10 @@
+.card_view{
+    display:flex;
+    flex-wrap:wrap;
+    height: auto;
+    width: auto;
+}
+
+.card_view>*{
+    margin:5px;
+}
